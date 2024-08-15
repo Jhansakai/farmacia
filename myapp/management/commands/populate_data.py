@@ -19,7 +19,8 @@ class Command(BaseCommand):
             ["13", "Valaciclovir 1 Gr Caja X 21 Tabletas", "GENFAR", "7702605109173", "Tratamiento de infecciones por virus", "169500", "L01A013", "2022-12-09", "2024-11-08", "Antivirales"],
             ["14", "Aciclovir 800 Mg X 10 Tabl", "GENFAR", "7702605100132", "Tratamiento de infecciones por virus","19700", "L01A014", "2022-12-09", "2024-11-08", "Antivirales"],
             ["15", "Viroxil 800 Mg Caja X 10 Tabletas", "GIMED SA", "7707341202553", "Tratamiento de infecciones por virus","68500", "L01A015", "2022-12-09", "2024-11-08", "Antivirales"],
-            ["16", "Nytax Nitazoxanida 500 Mg X 6 Cap", "PROCAPS", "7703153012410", "Tratamiento de infecciones por virus","90300", "L01A016", "2022-12-09", "2024-11-08", "Antivirales"],           
+            ["17", "Acetaminofen 500 Mg X 10 Tabletas", "TECNOQUIMICAS SA", "7703153012410", "Dolor y fiebre ","90300", "L01A016", "2022-12-09", "2024-11-08", "Analgecicos"], 
+            ["18", "Ibuflash Migran  X 2 Cap", "TECNOQUIMICAS SA", "7702057613198", "Dolor y Migraña","3000", "L01A017", "2023-1-2", "2025-1-2", "Analgecicos"],         
         ]
         # Referencia de informacion: https://www.tudrogueriavirtual.com/medicina-formulada
 
