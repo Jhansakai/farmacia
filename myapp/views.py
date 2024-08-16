@@ -1,6 +1,7 @@
 from datetime import datetime, timedelta
 from django.shortcuts import render
 from myapp.models import Producto, Categoria
+from myapp.forms import ProductoForm
 
 # Create your views here.
 
@@ -75,6 +76,39 @@ def index(request):
         
     }
     return render(request, 'myapp/index.html', context)
+
+def add_productos(request):
+    form = ProductoForm()
+    context = {
+        "form": form
+    }
+    method = request.method
+    if method == 'POST':
+        # todo: revisar esto 
+        data = request.POST
+        code = data.get('code')
+        name = data.get('name')
+        brand = data.get('brand')
+        reference = data.get('reference')
+        description = data.get('description')
+        price = data.get('price')
+        batch = data.get('batch')
+        manufacturing = data.get('manufacturing')
+        expedition = data.get('expedition')
+        categoria_id = data.get('categoria')
+
+        producto = Producto(
+            code=code,
+            name=name,
+            brand=brand,
+            reference=reference,
+            description=description,
+            price=price,
+            batch=batch,
+        )
+        producto.save()
+
+    return render(request, 'myapp/add-producto.html', context)
 
 def dashboard(request):
 
