@@ -28,14 +28,22 @@
                 <nav id="sidebar" class="col-md-3 col-lg-2 d-md-block bg-light sidebar">
                     <div class="sidebar-sticky">
                         <ul class="nav flex-column">
-                                <button type="button" class="btn btn-primary">futuros productos po vencer</button>
-                                </a>
-                                <button type="button" class="btn btn-primary">Productos que se estan agotando</button>
-                                </a>
-                                <button type="button" class="btn btn-primary">futuros productos po vencer</button>
-                                </a>
-                                <button type="button" class="btn btn-primary">futuros productos po vencer</button>
-                                </a>
+                                <div class="card bg-danger text-white">
+                                    <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
+                                        dias: {{ productos_por_vencer }}</a>
+                                </div>
+                                <div class="card bg-danger text-white">
+                                    <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
+                                        dias: {{ productos_por_vencer }}</a>
+                                </div>
+                                <div class="card bg-danger text-white">
+                                    <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
+                                        dias: {{ productos_por_vencer }}</a>
+                                </div>
+                                <div class="card bg-danger text-white">
+                                    <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
+                                        dias: {{ productos_por_vencer }}</a>
+                                </div>
                             </li>
                         </ul>
                     </div>
@@ -105,97 +113,4 @@
 
 </html>
 
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-    </div>
-
-    <div class="row">
-        <div class="col-sm-4">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-4">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="row">
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-warning text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-3">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-    </div>
-
-
-
-    <div class="row">
-        <div class="col-sm-6">
-            <div class="card bg-info text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-        <div class="col-sm-6">
-            <div class="card bg-danger text-white">
-                <a class="card-body" href="/productos_por_vencer">Futuros productos a vecer en menos de 60
-                    dias: {{ productos_por_vencer }}</a>
-            </div>
-        </div>
-    </div>
 {% endblock %}
